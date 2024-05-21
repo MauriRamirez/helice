@@ -37,7 +37,7 @@
           <li><a href="tienda.html" class="nav-link">
             Tienda
           </a></li>
-          <li><a href="bio.html" class="nav-link">
+          <li><a href="#renders" class="nav-link">
             Bio
           </a></li>
           <li><a href="contacto.html" class="nav-link">
@@ -50,8 +50,69 @@
       </nav>
 
       <hr>
-      <br>
-      <hr>
+
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+
+        <div class="contact-form-container">
+          <div class="contact-form">
+
+            <form 
+              action="https://formspree.io/f/mknanvqj" 
+              method="POST"
+            >
+
+            <div class="form-control">
+              <label for="name">
+                FULL NAME
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                class="input-field"
+                required
+              />
+            </div>
+          
+            <div class="form-control">
+              <label for="email">
+                EMAIL
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                class="input-field"
+                required
+              />
+            </div>
+              
+            <div class="form-control">
+              <label for="message">
+                MESSAGE
+              </label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+
+            </form>
+          </div>
+        </div>
+      </section>
     
       <footer>
           <p class="copy">

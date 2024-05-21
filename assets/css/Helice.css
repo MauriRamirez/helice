@@ -8,7 +8,7 @@
   --bolder-font: 900;
   --bg-color: #00abc5;
   --primary-color: #ffffff;
-  --secondary-color: #009cab;
+  --secondary-color: #004046;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #005069;
   --top-margin: 1rem;
@@ -36,11 +36,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: var(--secondary-shadow);
 }
 
 body {
@@ -160,6 +160,7 @@ nav ul li {
 }
 
 .tienda-title {
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -242,7 +243,7 @@ nav ul li {
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: black;
 }
 
 .contact-form-container textarea {
