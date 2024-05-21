@@ -6,11 +6,11 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #f1dcc1;
-  --primary-color: #000000;
-  --secondary-color: #ff7235;
+  --bg-color: #00abc5;
+  --primary-color: #ffffff;
+  --secondary-color: #009cab;
   --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --secondary-shadow: #005069;
   --top-margin: 1rem;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
@@ -140,7 +140,7 @@ nav ul li {
 
 
 
-.projects {
+.tienda {
   background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
@@ -153,13 +153,13 @@ nav ul li {
   background-color: var(--bg-color);
 }
 
-.projects-container {
+.tienda-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projects-title {
+.tienda-title {
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -207,20 +207,7 @@ nav ul li {
   padding: 1rem;
 }
 
-.renders {
-  max-width: 68.75rem;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
-}
 
-.renders-header {
-  margin-bottom: 1rem;
-}
-
-.renders-wrapper img {
-  padding: 1rem;
-}
 
 .icon {
   width: 16rem;
@@ -413,7 +400,7 @@ footer {
   }
 
 
-  .projects-container {
+  .tienda-container {
     flex-direction: column;
   }
 
